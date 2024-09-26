@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(21, 97, 73);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.key{
+    padding: 10px 15px;
+    font-weight: bolder;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.key.screen{
+    grid-column: span 4;
+    padding: 20px;
+}
+
+.key.op{
+    color: white;
+    background-color: black;
+}
+
+.key.clear{
+    background-color: rgb(224, 14, 14);
+    color: white;
+    
+}
